@@ -50,7 +50,7 @@ kibana              "/bin/tini -- /usr/l…"   kibana              running      
 logstash            "/usr/local/bin/dock…"   logstash            running             5044/tcp, 9600/tcp, 0.0.0.0:5046->5046/tcp, :::5046->5046/tcp
 some_app            "python3 /opt/run.py"    some_application    running             
 ```
-:Kibana <picture/Kibana.png>
+![Kibana] <picture/Kibana.png>
 - скриншот интерфейса kibana
 - docker-compose манифест (если вы не использовали директорию help)
 - ваши yml конфигурации для стека (если вы не использовали директорию help)
@@ -67,9 +67,9 @@ some_app            "python3 /opt/run.py"    some_application    running
 Данные логи должны порождать индекс logstash-* в elasticsearch. Если данного индекса нет - воспользуйтесь советами 
 и источниками из раздела "Дополнительные ссылки" данного ДЗ.
 
-:Kibana_logstash <picture/Kibana_logstash.png> 
+![Kibana_logstash] <picture/Kibana_logstash.png> 
 Изменения в файле docker-compose.yml (logstash docker)
-:docker-compose <help/docker-compose.yml>
+[docker-compose] <help/docker-compose.yml>
 ---
 
 ### Как оформить ДЗ?
