@@ -67,9 +67,11 @@ some_app            "python3 /opt/run.py"    some_application    running
 Данные логи должны порождать индекс logstash-* в elasticsearch. Если данного индекса нет - воспользуйтесь советами 
 и источниками из раздела "Дополнительные ссылки" данного ДЗ.
 
-![Kibana_logstash](./picture/Kibana_logstash.png) 
-Изменения в файле docker-compose.yml (logstash docker)
+[Kibana_logstash](./picture/Kibana_logstash.png) 
+
+Изменения в файле docker-compose.yml(logstash docker)
 [docker-compose](./help/docker-compose.yml)
+
 ---
 
 ### Как оформить ДЗ?
